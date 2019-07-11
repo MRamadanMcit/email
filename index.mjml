@@ -1,0 +1,72 @@
+<mjml>
+  <mj-head>
+    <mj-title>Weclome To My Email</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" />
+    <mj-style inline="inline">
+      .wrapper {
+        background-color: #444 !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container css-class="wrapper">
+      <mj-hero mode="fixed-height" height="300px" background-width="600px" background-height="300px" background-url="https://miro.medium.com/max/2000/1*iwPLQjyFYRTVeQ2cb4S9rA.png" background-color="#2a3448" padding="70px 0px">
+        <mj-hero-content>
+          <mj-text font-family="Montserrat, sans-serif" padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="35px" line-height="45px" font-weight="400" text-transform="uppercase">
+            welcome to my portfolio
+          </mj-text>
+          <mj-button href="https://ayaadel.github.io/portfolio/" font-size="16px" font-weight="500" width="150px" align="center" background-color="#eece1a">
+            Visit
+          </mj-button>
+        </mj-hero-content>
+      </mj-hero>
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="20px" align="center" padding="0" color="#eece1a" font-family="Montserrat, sans-serif">
+            <h2 style="margin-bottom: 10px; font-weight: 600">
+              BIO
+            </h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
+            <p>Hello, my name is Aya Adel and I am a Front End Developer. I specialize in making web applications and modern responsive website. I fell in love with Front End Development and have a passion for learning new technologies and creating beautiful websites</p>
+            <p>I have always been fascinated by web technologies and also enjoy turning simple things into more interactive. If you are interested in developing with web technologies I would love to work with you on it. I am available for hire as a part-time or contract basis</p>
+            <p>I’m Mostly build Front End part of websites. If You need awesome website, you have landed on the right page</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column background-color="#515151">
+          <mj-image width="100px" src="https://cdn1.iconfinder.com/data/icons/filetypes-2/110/HTML-512.png" />
+          <mj-text padding="0 15px" align="center" line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
+            <h3 style="margin-top: 10px; color: #eece1a; font-size: 18px">
+              Code
+            </h3>
+            <p>I enjoy hand coding things from scratch using clean, simple and maintainable code that is easy to read</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="100px" src="https://cdn3.iconfinder.com/data/icons/school-solid-icons-vol-1/96/031-512.png" />
+          <mj-text padding="0 15px" align="center" line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
+            <h3 style="margin-top: 10px; color: #eece1a; font-size: 18px">
+              Design
+            </h3>
+            <p>I focus on crafting beautifully designed websites, and as with my code, I value simple and clean design patterns</p>
+          </mj-text>
+        </mj-column>
+        <mj-column background-color="#515151">
+          <mj-image width="100px" src="https://www.careandshare-ut.org/wp-content/uploads/2018/02/phone.png" />
+          <mj-text padding="0 15px" align="center" line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
+            <h3 style="margin-top: 10px; color: #eece1a; font-size: 18px">
+              Responsive
+            </h3>
+            <p style="margin-bottom: 67%">My projects will work on any device, no matter the size of the screen</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
