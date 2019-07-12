@@ -13,7 +13,7 @@
       <mj-hero mode="fixed-height" height="300px" background-width="600px" background-height="300px" background-url="https://miro.medium.com/max/2000/1*iwPLQjyFYRTVeQ2cb4S9rA.png" background-color="#2a3448" padding="70px 0px">
         <mj-hero-content>
           <mj-text font-family="Montserrat, sans-serif" padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="35px" line-height="45px" font-weight="400" text-transform="uppercase">
-            welcome to my portfolio
+            welcome to my email
           </mj-text>
           <mj-button href="https://ayaadel.github.io/portfolio/" font-size="16px" font-weight="500" width="150px" align="center" background-color="#eece1a">
             Visit
@@ -38,8 +38,8 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0">
-        <mj-column background-color="#515151">
+      <mj-section padding="20px 0 10px" background-color="#515151">
+        <mj-column>
           <mj-image width="100px" src="https://cdn1.iconfinder.com/data/icons/filetypes-2/110/HTML-512.png" />
           <mj-text padding="0 15px" align="center" line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
             <h3 style="margin-top: 10px; color: #eece1a; font-size: 18px">
@@ -57,13 +57,13 @@
             <p>I focus on crafting beautifully designed websites, and as with my code, I value simple and clean design patterns</p>
           </mj-text>
         </mj-column>
-        <mj-column background-color="#515151">
+        <mj-column>
           <mj-image width="100px" src="https://www.careandshare-ut.org/wp-content/uploads/2018/02/phone.png" />
           <mj-text padding="0 15px" align="center" line-height="25px" font-size="14px" color="#fff" font-family="Montserrat, sans-serif" padding-top="0" align="center">
             <h3 style="margin-top: 10px; color: #eece1a; font-size: 18px">
               Responsive
             </h3>
-            <p style="margin-bottom: 67%">My projects will work on any device, no matter the size of the screen</p>
+            <p>My projects will work on any device, no matter the size of the screen</p>
           </mj-text>
         </mj-column>
       </mj-section>
