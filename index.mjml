@@ -6,6 +6,15 @@
       .wrapper {
         background-color: #444 !important;
       }
+
+      .mj-carousel-image {
+        padding: 0 20px;
+      }
+
+      .mj-carousel-image a img {
+        height: 300px !important;
+        object-fit: cover
+      }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -15,7 +24,7 @@
           <mj-text font-family="Montserrat, sans-serif" padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="35px" line-height="45px" font-weight="400" text-transform="uppercase">
             welcome to my email
           </mj-text>
-          <mj-button href="https://ayaadel.github.io/portfolio/" font-size="16px" font-weight="500" width="150px" align="center" background-color="#eece1a">
+          <mj-button href="https://ayaadel.github.io/portfolio/" font-size="18px" font-weight="500" width="150px" align="center" background-color="#eece1a">
             Visit
           </mj-button>
         </mj-hero-content>
@@ -64,6 +73,44 @@
               Responsive
             </h3>
             <p>My projects will work on any device, no matter the size of the screen</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="20px" align="center" padding="0" color="#eece1a" font-family="Montserrat, sans-serif">
+            <h2 style="margin-bottom: 0; font-weight: 600">
+              MY WORK
+            </h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-carousel thumbnails="hidden" icon-width="35px" left-icon="https://i.imgur.com/coQJu6r.png" right-icon="https://i.imgur.com/b9qhK2N.png">
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj1.png" href="https://zakq8.com/en" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj2.png" href="http://welltree.org/" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj3.png" href="https://creatingafamily.org/" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj4.png" href="https://welcomeallsmiles.com/" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj5.png" href="https://base2s.com/" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj6.png" href="https://seeloz.com/" />
+            <mj-carousel-image src="https://ayaadel.github.io/portfolio/imgs/proj7.png" href="http://tawasolqatar.net/" />
+          </mj-carousel>
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#222">
+        <mj-column>
+          <mj-text align="center">
+            <a href="https://www.facebook.com/ayaadel.wd" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/1024px-F_icon.svg.png" style="width: 30px; margin-right: 5px"></a>
+            <a href="https://www.linkedin.com/in/aya-adel-ahmed-3a88a389/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" style="width: 30px; margin-right: 5px"></a>
+            <a href="https://github.com/AyaAdelAhmed" target="_blank"><img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_57dd97ecbc77b248c077fd49ed91e856/golearn.png" style="width: 30px; margin-right: 5px"></a>
+            <a href="https://www.behance.net/ayadel" target="_blank"><img src="http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png" style="width: 30px"></a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" font-size="14px" color="#fff" font-family="Montserrat, sans-serif">
+            <p>Created by <a href="https://ayaadel.github.io/portfolio/index.html" style="font-weight: 600; color: #eece1a; text-decoration: none">Aya Adel</a></p>
           </mj-text>
         </mj-column>
       </mj-section>
